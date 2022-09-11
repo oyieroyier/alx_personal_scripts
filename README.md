@@ -67,3 +67,13 @@ The C Script when executed does the following:
       You don't need to manually compile your code unless you made an error. The script does not compile codes with errors.
       
       Run ./filename to test your code.
+      
+Save your scripts in the Root directory for quick execution.
+
+To execute the Git script, enter the command:
+
+    /git
+    
+To execute the C script, enter the command:
+
+    /c
