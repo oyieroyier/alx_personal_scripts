@@ -22,24 +22,31 @@ The Git Script when executed does the following:
 
 
 
-                    **C SCRIPT**
+                   **C SCRIPT**
 
 The C Script when executed does the following:
 
-  i. Prompts you for your file name. Enter the file name without the .c extension; i.e if your file name is supposed to be hello.c, type hello in the prompt.
+  i. Prompts you for your file name.
+      Please enter the file name without the .c extension; i.e if your file name is supposed to be hello.c, type in hello at the prompt.
 
   ii. Creates a C file and auto-inserts the following boilerplate text:
       
-      a. #include <stdio.h>. If you need another header file, add it manually.
+      a. #include <stdio.h>.
+          If you need another header file, add it manually.
       
-      b. The Betty-style code description of the main function and return value. If you want to optionally add anything to the description e.g describing what your code does, add it manually. Always make sure there is an asterisk before your description.
+      b. The Betty-style code description of the main function, your program description and return value.
+          Type in what your program does or you can put in a placeholder text.
       
-      c. int main(void). If your code requires this part to be different, eg int main(), change it manually.
+      c. int main(void).
+          If your code requires this section to be different, eg int main(), change it manually.
       
-      d. Two curly braces, betweem which is sandwiched a semi-colon. The semi-colon shows you where to start typing your code.
+      d. Two curly braces, betweem which is sandwiched a semi-colon.
+          The semi-colon shows you where to start typing your code.
   
-  iii. Opens the file in INSERT mode in Vi editor. If you use another editor (Nano, Emacs etc), replace "vi +star" in line 11 with your editor name.
+  iii. Opens the file in INSERT mode in Vi editor.
+        If you use a different editor (Nano, Emacs etc), replace "vi +star" in line 11 with your prefered editor's name.
   
-  iv. Once you are done writing your code, the script goes through your code and removes any trailing whitespace in the code. Betty hates those.
+  iv. Once you are done writing your code, the script goes through it and removes any trailing whitespace within it. Betty hates those; we're trying to please her.
   
-  v. Compiles the code using the gcc -o format. If you prefer a different compilation style, edit line 15 of the script.
+  v. Compiles the code using the gcc -o format.
+      If you prefer a different compilation style, edit line 15 of the script.
