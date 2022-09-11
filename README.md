@@ -1,2 +1,4 @@
 # alx_personal_scripts
-Productivity Scripts for personal use.
+These are a few productivity scripts I wrote to improve my ALX productivity.
+
+Contact me if you encounter any error during execution.
