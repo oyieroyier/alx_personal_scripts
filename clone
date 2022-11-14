@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Enter your repository name, Bob:"
+
+read repo
+
+git clone https://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@github.com/oyieroyier/"$repo".git
